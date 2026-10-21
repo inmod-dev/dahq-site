@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'sha256-h8tJOvdIS/1gayIPK6/2IDKQLHB1MX+9VTdE9odrn0w='; base-uri 'none'; form-action 'none'">
+<title>Returning to Dark Age HQ</title>
+<style>body{font:16px/1.6 Georgia,serif;max-width:720px;margin:40px auto;padding:0 16px;color:#222;background:#fff}h1{font-size:28px}.note{background:#f4f1e8;padding:10px 14px;border-left:3px solid #b08d3c}</style></head><body>
+<h1>Returning you to Dark Age HQ…</h1>
+<p class="note">Square has finished. This page hands the sign-in straight back to Dark Age HQ on this computer. It keeps nothing.</p>
+<p>If nothing happens, <a id="go" href="http://localhost:8878/square/callback">continue to Dark Age HQ</a> (Dark Age HQ must be open on this computer).</p>
+<noscript><p>JavaScript is off, so this page can't pass the sign-in on. Turn it on, or press Connect in Dark Age HQ again.</p></noscript>
+<hr><p>Dark Age HQ is made by Greysen Fox (operating as iNMod.), Argyle, Texas. Contact: <a href="mailto:contact@inmod.dev">contact@inmod.dev</a></p>
+<script>(function(){var T="http://localhost:8878/square/callback",K=["code","state","error","error_description"],i=new URLSearchParams(location.search),o=new URLSearchParams();K.forEach(function(k){var v=i.get(k);if(v!==null)o.set(k,v)});var u=T+(o.toString()?"?"+o.toString():"");document.getElementById("go").href=u;location.replace(u)})();</script>
+</body></html>
